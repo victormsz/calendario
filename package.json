@@ -1,17 +1,9 @@
 {
-  "type": "module",
-  "name": "calendario",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@fullcalendar/core": "^6.1.15",
-    "@fullcalendar/daygrid": "^6.1.15"
+    "scripts": {
+    "test": "jest"
+    },
+  "devDependencies": {
+    "jest": "^29.7.0"
+    
   }
 }
